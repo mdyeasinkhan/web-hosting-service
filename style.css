@@ -1,0 +1,307 @@
+:root{
+    --font-open-sans: 'Open Sans', sans-serif;
+    --primary-color: #000000;
+    --secondary-color: #6C41FF;
+    --tertiary-color: #1A0F42;
+}
+
+body{
+ font-family: var(--font-open-sans);
+ 
+}
+button.btn{
+    color: white;
+    font-weight: 500;
+    background: var(--secondary-color);
+}
+.lear-more button.btn{
+    color: var(--secondary-color);
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid var(--secondary-color);
+}
+a{
+    color: var(--primary-color);
+}
+/* Header  */
+.top-header{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+.email img{
+    width: 16px;
+    height: 10.29px;
+    margin-right: 10px;
+    margin-top: 19px;
+    
+}
+.call{
+    margin-top: 12px;
+    margin-left: 1rem;
+}
+.call img{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.email p{
+    margin-top: 10px;
+}
+
+/* nav.navbar.navbar-expand-lg {
+    justify-content: flex-end;
+}
+.navbar .nav-link{
+    color: var(--primary-color);
+    margin-right: 1rem;
+    font-weight: 400;
+} */
+.signup button{
+    background-color: var(--secondary-color);
+    
+} 
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+/* Hero section  */
+.hero-content{
+    margin-right: 6rem;
+}
+.hero-bottom h2{
+    font-weight: 700;
+    font-size: 36px;
+    padding-right: 3rem;
+}
+
+/* Service section  */
+.service-img{
+    background: url(img/background.png);
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    text-align: center;
+    padding-top: 1rem;
+}
+.service-box{
+    padding-right: 2rem;
+    margin-right: 1rem;
+}
+
+/* Plan section  */
+
+.main-plan-container{
+    background: #F8F5FF;
+    padding: 100px 0;
+}
+.plan-section{
+   
+    position: relative;
+}
+.main-plan-section {
+    margin-bottom: -580px;
+}
+.plan-options{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+}
+.plan-options::before {
+    content: "";
+    background: var(--secondary-color);
+    width: 300px;
+    height: 2px;
+    top: 391px;
+    left: 434px;
+    position: absolute;
+}
+
+.checklist{
+    margin-right: 1rem;
+}
+
+.main-packagebox{
+    z-index: 99;
+    position: relative;
+    padding-bottom: -580px;
+}
+.basic-package {
+    width: 348px;
+    height: 700px;
+    background: white;
+    padding: 20px 50px;
+}
+.package-button .btn{
+    background: var(--secondary-color);
+    color: white;
+    margin-top: 124px;
+}
+.enterprise-button .btn{
+    background: var(--secondary-color);
+    color: white;
+    margin-top: 40px;
+}
+.pro-button .btn{
+    background: var(--secondary-color);
+    color: white;
+    margin-top: 80px;
+}
+.basic-package h4 {
+    font-size: 24px;
+}
+.basic-package h3 {
+    font-size: 48px;
+    margin: 20px 0;
+    
+}
+ 
+/* technology  */
+.technology {
+    background: #1A0F42;
+    padding-top: 650px;
+    z-index: 0;
+    padding-bottom: 20px;
+}
+.technology img{
+    width: 500px;
+    height: 471px;
+}
+.technology h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    color: white;
+    margin-bottom: 2rem;
+}
+.technology p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* security section  */
+.security-section{
+    background: #F8F5FF;
+    padding: 60px 0;
+}
+.security-content{
+    padding-right: 5rem;
+}
+.security-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+/* map section  */
+.map-section{
+    padding: 120px 0;
+
+}
+
+.map-content h2{
+   font-size: 36px;
+   font-weight: 700;
+   
+}
+.map-content p{
+   font-size: 18px;
+   font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    
+}
+
+.map-aria{
+    background: url(img/Map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1113px;
+    height: 472px;
+    top: 2px;
+    left: 0;
+    position: relative;
+}
+.map-aria img{
+    max-width: 874px;
+    height: 353px;
+    top: 50px;
+    left: 152px;
+    position: absolute;
+}
+.map-location-name{
+    position: relative;
+}
+.map-location-name h3 {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    position: absolute;
+    left: 88px;
+    top: 80px;
+}
+
+/*trusted and logo section  */
+.trusted p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+.logo-box .logo{
+    padding-left: 40px;
+}
+
+/* Testimonial */
+.main-testimonial h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.main-testimonial p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 0px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.main-faq .main-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer{
+    background: #1A0F42;
+    padding: 5rem 0;  
+}
+
+.footer-sevices h4{
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+.footer-sevices ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.footer-social-media img{
+    margin-right: 1rem;
+}
